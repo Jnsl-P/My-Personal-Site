@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Signika+Negative&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#line{
+    background-color: black;
+    height: 1.3px;
+}
+.firstContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    background-color: #ced3cc;
+}
+
+.firstContainer > img{
+    width: 30%;
+    outline: 15px solid #3A5A40;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  24px 24px 47px #a6a6a6,
+}
+
+.secondContainer{
+    background-color: #52796F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 10% 0 ;
+}
+
+.secondContainer > img{
+    width: 30%;
+    width: 30%;
+    outline: 15px solid #9fa1a0;
+    border-radius: 15px;
+}
+
+.secondContainer > div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.category{
+    font-family: 'Lilita One', cursive;
+    color: white;
+}
+
+
+.secondContainer > div > p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.thirdContainer{
+    background-color: #354F52;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.tc_con{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.thirdContainer > h1{
+    padding: 3%;
+    font-size: 3em;
+}
+
+#card1, #card2, #card3{
+    height: 50%;
+    width: 30vw;
+    background-color: #5F2626;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 50vh; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.7rem;
+    color: white;
+    border-radius: 25px;
+    text-shadow: 2px 2px #393636;
+}
+
+
+#card1{
+    background-image: url("./media/sd.jpg"); 
+   
+}
+
+#card2{
+    background-image: url("./media/bad.jpg"); 
+}
+
+#card3{
+    background-image: url("./media/game.jpg"); 
+}
+
+.fourthContainer{
+    background-color: #2F3E46;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourthContainer > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.fourthContainer > div img{
+    height: 7vmin;
+    width: 6vmin;
+    margin: 1%;
+}
+
+.fourthContainer > h1{
+    padding: 1%;
+    font-size: 3em;
+}
+
+
+
+
+
+
+
